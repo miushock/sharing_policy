@@ -1,10 +1,19 @@
 require "active_support/core_ext/kernel"
 
-class User < Struct.new (:email)
+warning = capture(:stderr) do
+  require "sharing_policy"
 end
 
-class Node < Struct.new (:owner)
+class User < Struct.new(:email)
 end
 
-class Resource < Struct.new (:owner)
+class Node < Struct.new(:owner)
+end
+
+class Presentable < Struct.new(:node, :resource, :policy)
+  include ViewingPolicy
+end
+
+class Resource < Struct.new(:owner, :resource_id, :policy)
+  include PullingPolicy
 end

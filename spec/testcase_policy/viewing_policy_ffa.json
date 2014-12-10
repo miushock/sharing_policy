@@ -1,0 +1,7 @@
+{
+  "type": "viewing",
+  "policy": {
+    "self": {},
+    "public": {}
+  }
+}

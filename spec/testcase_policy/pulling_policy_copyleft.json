@@ -1,0 +1,9 @@
+{
+  "type": "pulling",
+  "policy": {
+    "self": {},
+    "public": {
+      "agreement": "GPL"
+    }
+  }
+}
