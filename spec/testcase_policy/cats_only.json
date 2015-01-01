@@ -1,0 +1,7 @@
+{
+  "type": "viewing",
+  "cases": {
+    "self" : {"actions":{}},
+    "cats": {"actions":{}}
+  }
+}

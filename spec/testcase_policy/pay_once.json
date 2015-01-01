@@ -1,0 +1,11 @@
+{
+  "type": "viewing",
+  "cases": {
+    "self" : {"actions":{}},
+    "public": {"actions":
+      {
+        "payment":50
+      }
+    }
+  }
+}

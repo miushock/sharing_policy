@@ -1,7 +1,7 @@
 {
   "type": "viewing",
-  "policy": {
-    "self": {},
-    "public": {}
+  "cases": {
+    "self": {"actions":{}},
+    "public": {"actions":{}} 
   }
 }
